@@ -6,6 +6,29 @@ Hibiki Mizuno
 
 ## scipy.integrate.odeint
 
+```python
+from scipy.integrate import ode
+from scipy.integrate import odeint
+
+if __name__ == "__main__":
+    t_list = np.linspace(0.0, 3000.0, 20000)
+    a = 0.7;b = 0.8;c = 10;
+    var_init = [1, 2]
+    for i in range(3):
+        I = 1.32 + i/50 + 0.07
+        var_list = odeint(f, var_init, t_list, args=(a, b, c, I))
+        print(var_list)
+        plt.plot(var_list[:, 0], var_list[:, 1], label="I={}".format(round(I,3)))
+
+```
+
+
+
+
+---
+
+## scipy.integrate.odeint
+
 https://docs.scipy.org/doc/scipy/reference/generated/scipy.integrate.odeint.html
 
 >Solve a system of ordinary differential equations using lsoda from the FORTRAN library odepack.
