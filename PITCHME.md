@@ -1,8 +1,39 @@
-# Adams法
-数値計算
+# scipy.integrate.odeint
+https://docs.scipy.org/doc/scipy/reference/generated/scipy.integrate.odeint.html
+>Solve a system of ordinary differential equations using lsoda from the FORTRAN library odepack.
+
+- FORTRANで書かれたODEPACKのLSODAを使って計算
+だそうです。　
+
+---
+## odepack/LSODA
+https://people.sc.fsu.edu/~jburkardt/f77_src/odepack/odepack.html
+>LSODA automatically switches between nonstiff and stiff solvers depending on the behavior of the problem;
+
+>LSODA, written jointly with L. R. Petzold, solves systems dy/dt = f with a dense or banded Jacobian when the problem is stiff, but it automatically selects between nonstiff (Adams) and stiff (BDF) methods. It uses the nonstiff method initially, and dynamically monitors data in order to decide which method to use.
+
+- Adams法とBDFを動的に切り替える
 
 
-- 線形多段法の一種。
+---
+
+Adams法とは<<<
+
+- 線形多段法
+
+BDFとは
+
+- 後退微分法
+
+---
+
+
+## Adams法
+- オイラー法、ルンゲクッタ法などは一段法
+	- 一つ手前の分点での[$ x(n), f(x(n))]の値から次の分点の値を求める
+- 線形多段法
+	- アダムス・バッシュフォース法 adams-bashforth <<<<
+	- アダムス・ムルトン法 adams-moulton
 
 ---
 
@@ -112,7 +143,6 @@ L_{k-1}(x) &= \frac{x - x_k}{x_{k-1} - x_k}\hspace{10mm} L_{k}(x) = \frac{x - x_
 y_{k+1} = y_k + \frac{h}{2}(-f_{k-1} + 3f_k)\\
 \]`
 を得る.
-
 
 ---
 
