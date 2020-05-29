@@ -33,15 +33,13 @@ https://people.sc.fsu.edu/~jburkardt/f77_src/odepack/odepack.html
 
 
 ---
+## odepack/LSODA
 
-Adams法とは<<<
+- Adams法とは<<<
+	- 線形多段法
 
-- 線形多段法
-
-
-BDFとは
-
-- 後退微分法
+- BDFとは
+	- 後退微分法
 
 ---
 
