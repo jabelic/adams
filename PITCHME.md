@@ -18,7 +18,12 @@ https://docs.scipy.org/doc/scipy/reference/generated/scipy.integrate.odeint.html
 https://people.sc.fsu.edu/~jburkardt/f77_src/odepack/odepack.html
 >LSODA automatically switches between nonstiff and stiff solvers depending on the behavior of the problem;
 
+## odepack/LSODA
+https://people.sc.fsu.edu/~jburkardt/f77_src/odepack/odepack.html
 >LSODA, written jointly with L. R. Petzold, solves systems dy/dt = f with a dense or banded Jacobian when the problem is stiff, but it automatically selects between nonstiff (Adams) and stiff (BDF) methods. It uses the nonstiff method initially, and dynamically monitors data in order to decide which method to use.
+
+## odepack/LSODA
+https://people.sc.fsu.edu/~jburkardt/f77_src/odepack/odepack.html
 
 - Adams法とBDFを動的に切り替える
 
