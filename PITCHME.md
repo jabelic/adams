@@ -103,7 +103,8 @@ L_{k-1}(x) &= \frac{x - x_k}{x_{k-1} - x_k}\hspace{10mm} L_{k}(x) = \frac{x - x_
 
 
 `\[
-\int_{x_k}^{x_{k+1}} L_{k}(x) dx = \int_{x_k}^{x_{k+1}} \frac{x - x_{k-1}}{x_{k} - x_{k-1}} dx = \int_0^1 \frac{h(\xi+1)}{h} hd\xi = h \left[\frac{1}{2} \xi^2 + \xi\right]^1_0 = \frac{3}{2}h,\\
+\int_{x_k}^{x_{k+1}} L_{k}(x) dx = \int_{x_k}^{x_{k+1}} \frac{x - x_{k-1}}{x_{k} - x_{k-1}} dx\\ 
+= \int_0^1 \frac{h(\xi+1)}{h} hd\xi = h \left[\frac{1}{2} \xi^2 + \xi\right]^1_0 = \frac{3}{2}h,\\
 \]`
 
 となって１つの積分スキーム
