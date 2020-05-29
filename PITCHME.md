@@ -1,5 +1,13 @@
-# scipy.integrate.odeint
+## scipy.integrate.odeint
+
+Hibiki Mizuno 
+
+---
+
+## scipy.integrate.odeint
+
 https://docs.scipy.org/doc/scipy/reference/generated/scipy.integrate.odeint.html
+
 >Solve a system of ordinary differential equations using lsoda from the FORTRAN library odepack.
 
 - FORTRANで書かれたODEPACKのLSODAを使って計算
