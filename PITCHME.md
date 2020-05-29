@@ -115,12 +115,12 @@ y_{k+1} = y_k + \frac{h}{2}(-f_{k-1} + 3f_k)\\
 
 ---
 
-刻み幅 $x_{k+1} - x{k} = h$で, $x = x_k + h\xi$ より
+刻み幅 $x\_{k+1} - x{k} = h$で, $x = x\_k + h\xi$ より
 $$
 \frac{x - x_k}{x_{k-1} - x_k} = \frac{h\xi}{x_{k-1} - x_k}
 $$
 
-$x_{k} - x{k-1} = h$より $x_{k-1} - x_k = -h$
+$x\_{k} - x\_{k-1} = h$より $x\_{k-1} - x_k = -h$
 
 $$
 \frac{h\xi}{x_{k-1} - x_k} = \frac{h\xi}{-h}
