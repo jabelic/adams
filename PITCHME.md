@@ -46,7 +46,7 @@ https://people.sc.fsu.edu/~jburkardt/f77_src/odepack/odepack.html
 
 ## Adams法
 - オイラー法、ルンゲクッタ法などは一段法
-	- 一つ手前の分点での[$ x(n), f(x(n))]の値から次の分点の値を求める
+	- 一つ手前の分点での$ x(n), f(x(n))$の値から次の分点の値を求める
 - 線形多段法
 	- アダムス・バッシュフォース法 adams-bashforth <<<<
 	- アダムス・ムルトン法 adams-moulton
