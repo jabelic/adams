@@ -95,7 +95,8 @@ L_{k-1}(x) &= \frac{x - x_k}{x_{k-1} - x_k}\hspace{10mm} L_{k}(x) = \frac{x - x_
 ここで簡単のため刻み$h$は一定とし, また積分の便宜のために $x = x\_k + h\xi$により $\xi$を導入すると, $x_{k\pm1} = x_k \pm h$より
 
 `\[
-\int_{x_k}^{x_{k+1}} L_{k-1}(x) dx = \int_{x_k}^{x_{k+1}} \frac{x - x_k}{x_{k-1} - x_k} dx = \int_0^1 \frac{h\xi}{-h} hd\xi = -h \left[\frac{1}{2} \xi^2\right]^1_0 = -\frac{1}{2}h,\\
+\int_{x_k}^{x_{k+1}} L_{k-1}(x) dx = \int_{x_k}^{x_{k+1}} \frac{x - x_k}{x_{k-1} - x_k} dx \\
+= \int_0^1 \frac{h\xi}{-h} hd\xi = -h \left[\frac{1}{2} \xi^2\right]^1_0 = -\frac{1}{2}h,\\
 \]`
 
 ---
