@@ -7,8 +7,12 @@ Hibiki Mizuno
 ## scipy.integrate.odeint
 
 ```python
-from scipy.integrate import ode
 from scipy.integrate import odeint
+
+def f(uv, t, a, b, c, I): # u, v:v[0], y'=z:v[1]
+    dudt = c*(-uv[1] + uv[0] - uv[0]**3 /3 + I)
+    dvdt = uv[0] - b*uv[1] + a
+    return [dudt, dvdt]
 
 if __name__ == "__main__":
     t_list = np.linspace(0.0, 3000.0, 20000)
