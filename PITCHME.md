@@ -128,10 +128,10 @@ $x\_{k} - x\_{k-1} = h$より $x\_{k-1} - x_k = -h$
 \frac{h\xi}{x_{k-1} - x_k} = \frac{h\xi}{-h}
 \]`
 
+
 $x = x_k + h\xi$より, 
 `\[
-\frac{dx}{d\xi} = h,\\
-x: x_k \to x_{k+1}\\
+\frac{dx}{d\xi} = h,\ \ \ \ x: x_k \to x_{k+1}\\
 \xi: 0 \to 1\ \ \ \because x_{k+1} - x_k = h
 \]`
 
