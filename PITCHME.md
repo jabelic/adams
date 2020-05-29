@@ -8,9 +8,8 @@
 
 ## Adams-Bashforth法
 
-常微分方程式
 $$
-\frac{dy}{dx} = f(x, y)
+\mbox{常微分方程式}\ \ \frac{dy}{dx} = f(x, y)
 $$
 
 は
