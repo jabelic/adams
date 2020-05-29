@@ -41,9 +41,8 @@ g_n(x_i) = y_i\ \ \ \ (i = 0,1,...,n)
 L_i(x) &= \prod^n_{j=0\\j\not=i} \frac{(x - x_j)}{(x_i - x_j)}\\
 &= \frac{(x - x_0)\cdots(x - x_{i-1})(x - x_{i+1})\cdots (x- x_{n})}{(x_i - x_0)\cdots (x_i - x_{i-1})(x_i - x_{i+1})\cdots (x_i - x_n)}\\
 \end{align}
-(i = 0,1,...,n)
 \]`
-
+`\[(i = 0,1,...,n)\]`
 
 を定義する. 
 
